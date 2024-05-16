@@ -682,69 +682,6 @@ body {
   #Contacts
 \*-----------------------------------*/
 
-.contact-us {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.contact-us .section-heading h2 {
-  font-size: 32px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.contact-us .inputField {
-  margin-bottom: 20px;
-}
-
-.contact-us input[type="name"],
-.contact-us input[type="email"],
-.contact-us textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-.contact-us textarea {
-  resize: vertical;
-  min-height: 150px;
-}
-
-.contact-us .inputField.btn {
-  margin-top: 20px;
-}
-
-.contact-us .main-gradient-button {
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: all 0.3s ease;
-}
-
-.contact-us .main-gradient-button:hover {
-  opacity: 0.9;
-}
-
-.contact-us .valid_info_name,
-.contact-us .valid_info_email,
-.contact-us .valid_info_message {
-  display: block;
-  margin-top: 5px;
-  color: #ff7e5f;
-}
-
-.contact-us .valid_info_name::before,
-.contact-us .valid_info_email::before,
-.contact-us .valid_info_message::before {
-  content: "* ";
-}
-
 /*-----------------------------------*\
   #EVENT
 \*-----------------------------------*/
